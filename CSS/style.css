@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: brown;
+    /* background-color: brown; */
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -21,7 +21,7 @@ body{
     color: red;
 
     /* DEBUG */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .bottom-header{
@@ -34,7 +34,7 @@ body{
     padding: 10px;
 
     /* DEBUG */
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 /* Main */
@@ -42,7 +42,6 @@ body{
 /* Row rules */
 #row{
     width: 80%;
-    padding: 50px;
     margin: auto;
     padding: 5px;
     
@@ -64,16 +63,23 @@ body{
     float: left;
     width: calc(100% / 3);
     margin: auto;
+    padding: 10px;
     
     /* DEBUG */
     height: 150px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+/* Padding */
+#padding{
+    padding: 10px;
+    background-color: black;
+    contain: content;
 }
 
 /* Col Left */
 .left.one{
     position: relative;
-    padding: 10px;
     /* DEBUG */
     /* background-color: green; */
    
@@ -96,10 +102,14 @@ h3{
     color: white;
 }
 
-h4 a{
+h4{
     padding: 0 0 0 150px;
     font-size: 20px;
     color: white;
+}
+
+a{
+    color: blue;
     text-decoration: none;
 }
 
@@ -128,7 +138,6 @@ h4 a{
     /* background-color: red; */
 }
 
-
 /* Col Right */
 .right.three{
     position: relative;
@@ -137,6 +146,7 @@ h4 a{
     /* DEBUG */
     /* background-color: blue; */
 }
+
 .right.six{
     position: relative;
     padding: 10px;
