@@ -1,0 +1,100 @@
+/* General Rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+}
+
+.top-header{
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+.bottom-header{
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+/* Main */
+
+/* Row rules */
+#row{
+    width: 80%;
+    padding: 50px;
+    content: "";
+    display: table;
+    clear: both;
+    
+    /* DEBUG */
+    background-color: yellow;
+    min-height: 100px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+/* Col Rules */
+.col{
+    float: left;
+    width: calc(100% / 3);
+    margin: 10px;
+    
+    /* DEBUG */
+    height: 200px;
+    width: 32%;
+    border: 2px solid black;
+}
+
+/* Col Left */
+.left.one{
+
+    /* DEBUG */
+    background-color: green;
+}
+
+.left.four{
+
+    /* DEBUG */
+    background-color: green;
+}
+
+/* Col Center */
+.center.two{
+
+    /* DEBUG */
+    background-color: red;
+}
+
+.center.five{
+
+    /* DEBUG */
+    background-color: red;
+}
+
+
+/* Col Right */
+.right.three{
+
+    /* DEBUG */
+    background-color: blue;
+}
+.right.six{
+
+    /* DEBUG */
+    background-color: blue;
+}
+
+
