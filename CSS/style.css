@@ -64,6 +64,7 @@ body{
     width: calc(100% / 3);
     margin: auto;
     padding: 10px;
+    color:grey;
     
     /* DEBUG */
     height: 150px;
@@ -72,7 +73,6 @@ body{
 
 /* Padding */
 #padding{
-    padding: 10px;
     background-color: black;
     contain: content;
 }
@@ -80,36 +80,38 @@ body{
 /* Col Left */
 .left.one{
     position: relative;
+
     /* DEBUG */
     /* background-color: green; */
-   
 }
 
 .img1{
-    height:90%;
+    height:100%;
+    width: auto;
     position:absolute;
+    contain: content;
 }
 
 h2{
     padding: 15px 0 0 150px;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
 h3{
     padding: 15px 0 10px 150px;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
 }
 
 h4{
     padding: 0 0 0 150px;
-    font-size: 20px;
+    font-size: 17px;
     color: white;
 }
 
 a{
-    color: blue;
+    color: #81d4fb;
     text-decoration: none;
 }
 
@@ -150,7 +152,7 @@ a{
 .right.six{
     position: relative;
     padding: 10px;
-
+    
     /* DEBUG */
     /* background-color: blue; */
 }
