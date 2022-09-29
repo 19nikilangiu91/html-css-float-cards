@@ -1,0 +1,164 @@
+/* General Rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: brown; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top-header{
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
+
+    /* DEBUG */
+    /* border: 2px solid black; */
+}
+
+.bottom-header{
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+
+    /* DEBUG */
+    /* border: 2px solid black; */
+}
+
+/* Main */
+
+/* Row rules */
+#row{
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    
+    /* DEBUG */
+    /* background-color: yellow; */
+    /* min-height: 500px; */
+    /* border: 2px solid black; */
+}
+
+/* clearfix */
+#row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+/* Col Rules */
+.col{
+    float: left;
+    width: calc(100% / 3);
+    margin: auto;
+    padding: 10px;
+    color:grey;
+    
+    /* DEBUG */
+    height: 150px;
+    /* border: 2px solid black; */
+}
+
+/* Padding */
+#padding{
+    background-color: black;
+    contain: content;
+}
+
+/* Col Left */
+.left.one{
+    position: relative;
+
+    /* DEBUG */
+    /* background-color: green; */
+}
+
+.img1{
+    height:100%;
+    width: auto;
+    position:absolute;
+    contain: content;
+}
+
+h2{
+    padding: 15px 0 0 150px;
+    font-size: 20px;
+    color: white;
+}
+
+h3{
+    padding: 15px 0 10px 150px;
+    font-size: 17px;
+    color: white;
+}
+
+h4{
+    padding: 0 0 0 150px;
+    font-size: 17px;
+    color: white;
+}
+
+a{
+    color: #81d4fb;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.left.four{
+    position: relative;
+    padding: 10px;
+
+    /* DEBUG */
+    /* background-color: green; */
+}
+
+/* Col Center */
+.center.two{
+    position: relative;
+    padding: 10px;
+
+    /* DEBUG */
+    /* background-color:red; */
+}
+
+.center.five{
+    position: relative;
+    padding: 10px;
+
+    /* DEBUG */
+    /* background-color: red; */
+}
+
+/* Col Right */
+.right.three{
+    position: relative;
+    padding: 10px;
+
+    /* DEBUG */
+    /* background-color: blue; */
+}
+
+.right.six{
+    position: relative;
+    padding: 10px;
+    
+    /* DEBUG */
+    /* background-color: blue; */
+}
+
+
